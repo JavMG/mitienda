@@ -2,76 +2,40 @@ const PRODUCTOS = [
   // ===== BLUSAS =====
   {
     id: 1,
-    nombre: "Blusa Oversize Negra",
-    precio: 399,
+    nombre: "Top Halter Tejido",
+    precio: 150,
     categoria: "Blusas",
-    imagen: "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=600",
-    tallas: ["S", "M", "L", "XL"],
-    descripcion: "Blusa oversize de algodón premium."
+    imagen: "https://res.cloudinary.com/yb89nhol/image/upload/v1791176413/WhatsApp_Image_2026-10-04_at_10.58.11_PM.jpg",
+    tallas: ["S"],
+    descripcion: "Top tejido con tiras al cuello, fresco y elegante."
   },
   {
     id: 2,
-    nombre: "Blusa Beige",
-    precio: 349,
+    nombre: "Traje de ballo Strapless Beige",
+    precio: 200,
     categoria: "Blusas",
-    imagen: "https://images.unsplash.com/photo-1564257577887-0f2f4b3c1e6d?w=600",
-    tallas: ["S", "M", "L"],
-    descripcion: "Blusa cómoda y fresca para cualquier ocasión."
+    imagen: "https://res.cloudinary.com/yb89nhol/image/upload/v1791176336/WhatsApp_Image_2026-10-04_at_10.58.10_PM_1.jpg",
+    tallas: ["s"],
+    descripcion: "Top strapless color beige, con detalle de vuelo."
   },
   {
     id: 3,
-    nombre: "Blusa Blanca Clásica",
-    precio: 299,
+    nombre: "Blusa Rosa Cuadros",
+    precio: 190,
     categoria: "Blusas",
-    imagen: "https://images.unsplash.com/photo-1485462537746-965f33f7f6a7?w=600",
-    tallas: ["S", "M", "L", "XL"],
-    descripcion: "Blusa blanca básica, combina con todo."
-  },
-  {
-    id: 4,
-    nombre: "Blusa Rosa",
-    precio: 379,
-    categoria: "Blusas",
-    imagen: "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=600",
-    tallas: ["S", "M", "L"],
-    descripcion: "Blusa rosa suave, ideal para el día."
+    imagen: "https://res.cloudinary.com/yb89nhol/image/upload/v1791176386/WhatsApp_Image_2026-10-04_at_10.58.10_PM_2.jpg",
+    tallas: ["M"],
+    descripcion: "Blusa rosa de cuadros con tirantes, estilo veraniego."
   },
 
   // ===== PANTALONES =====
   {
-    id: 5,
-    nombre: "Pantalón Cargo",
-    precio: 499,
+    id: 4,
+    nombre: "Pantalón Palazzo Beige",
+    precio: 270,
     categoria: "Pantalones",
-    imagen: "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=600",
-    tallas: ["28", "30", "32", "34"],
-    descripcion: "Pantalón cargo con múltiples bolsillos."
-  },
-  {
-    id: 6,
-    nombre: "Jeans Clásico Azul",
-    precio: 599,
-    categoria: "Pantalones",
-    imagen: "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600",
-    tallas: ["28", "30", "32", "34", "36"],
-    descripcion: "Jeans de mezclilla resistente y cómodo."
-  },
-  {
-    id: 7,
-    nombre: "Pantalón Negro Formal",
-    precio: 549,
-    categoria: "Pantalones",
-    imagen: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=600",
-    tallas: ["28", "30", "32", "34"],
-    descripcion: "Pantalón formal elegante para cualquier ocasión."
-  },
-  {
-    id: 8,
-    nombre: "Jogger Gris",
-    precio: 449,
-    categoria: "Pantalones",
-    imagen: "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=600",
-    tallas: ["S", "M", "L", "XL"],
-    descripcion: "Jogger cómodo para el día a día."
+    imagen: "https://res.cloudinary.com/TU-CLOUD-NAME/image/upload/w_600,q_auto,f_auto/v1/pantalon-palazzo.jpg",
+    tallas: ["M"],
+    descripcion: "Pantalón palazzo de tiro alto, elegante y cómodo."
   }
 ];
