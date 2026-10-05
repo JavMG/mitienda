@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>👕 Mi Tienda</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+  <h1>👕 Mi Tienda</h1>
+  <button id="btnCarrito" class="btn-carrito">
+    🛒 <span id="contadorCarrito">0</span>
+  </button>
+</header>
+
+<!-- Buscador y filtros -->
+<section class="filtros">
+  <input type="text" id="buscador" placeholder="🔎 Buscar ropa...">
+  <div id="categorias" class="categorias"></div>
+</section>
+
+<!-- Catálogo -->
+<main id="catalogo" class="catalogo"></main>
+
+<!-- Modal Producto -->
+<div id="modalProducto" class="modal oculto">
+  <div class="modal-contenido">
+    <button class="cerrar" data-cerrar>✖</button>
+    <div id="detalleProducto"></div>
+  </div>
+</div>
+
+<!-- Modal Carrito -->
+<div id="modalCarrito" class="modal oculto">
+  <div class="modal-contenido">
+    <button class="cerrar" data-cerrar>✖</button>
+    <h2>🛒 Tu Carrito</h2>
+    <div id="itemsCarrito"></div>
+    <div class="total-carrito">
+      <strong>Total: <span id="totalCarrito">$0</span></strong>
+    </div>
+    <button id="btnWhatsApp" class="btn-whatsapp">
+      🟢 REALIZAR PEDIDO POR WHATSAPP
+    </button>
+  </div>
+</div>
+
+<script src="productos.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
