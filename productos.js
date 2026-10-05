@@ -23,7 +23,7 @@ const PRODUCTOS = [
     nombre: "Blusa Rosa Cuadros",
     precio: 190,
     categoria: "Blusas",
-    imagen: "https://res.cloudinary.com/yb89nhol/image/upload/v1791176386/WhatsApp_Image_2026-10-04_at_10.58.10_PM_2.jpg",
+    imagen: "https://res.cloudinary.com/yb89nhol/image/upload/v1791176408/WhatsApp_Image_2026-10-04_at_10.58.10_PM.jpg",
     tallas: ["M"],
     descripcion: "Blusa rosa de cuadros con tirantes, estilo veraniego."
   },
@@ -34,7 +34,7 @@ const PRODUCTOS = [
     nombre: "Pantalón Palazzo Beige",
     precio: 270,
     categoria: "Pantalones",
-    imagen: "https://res.cloudinary.com/TU-CLOUD-NAME/image/upload/w_600,q_auto,f_auto/v1/pantalon-palazzo.jpg",
+    imagen: "https://res.cloudinary.com/yb89nhol/image/upload/v1791176386/WhatsApp_Image_2026-10-04_at_10.58.10_PM_2.jpg",
     tallas: ["M"],
     descripcion: "Pantalón palazzo de tiro alto, elegante y cómodo."
   }
