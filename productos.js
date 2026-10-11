@@ -52,7 +52,7 @@ const PRODUCTOS = [
     categoria: "Blusas",
     imagen: "https://res.cloudinary.com/yb89nhol/image/upload/v1791697773/WhatsApp_Image_2026-10-10_at_1.54.05_PM.jpg",
     tallas: ["M"],
-    descripcion: "Blusa de rayas con detalle de moño al frente."
+    descripcion: "Blusa de rayas con detalle de cereza al frente."
   },
   {
     id: 7,
@@ -89,16 +89,6 @@ const PRODUCTOS = [
     imagen: "https://res.cloudinary.com/yb89nhol/image/upload/v1791697773/WhatsApp_Image_2026-10-10_at_11.41.33_PM.jpg",
     tallas: ["M"],
     descripcion: "Top Rosa con detalles negros."
-  
-    },
-  {
-    id: 11,
-    nombre: "Top Halter Puntos cafes",
-    precio: 150,
-    categoria: "Blusas",
-    imagen: "https://res.cloudinary.com/yb89nhol/image/upload/v1791697773/WhatsApp_Image_2026-10-10_at_1.54.05_PM_2.jpg",
-    tallas: ["M"],
-    descripcion: "Top halter blanco con puntos negros."
   
   },
   {
