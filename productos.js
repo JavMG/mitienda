@@ -46,16 +46,7 @@ const PRODUCTOS = [
     descripcion: "Blusa de rayas café con blanco, estilo casual."
   },
   {
-    id: 6,
-    nombre: "Blusa Rayas",
-    precio: 160,
-    categoria: "Blusas",
-    imagen: "https://res.cloudinary.com/yb89nhol/image/upload/v1791697773/WhatsApp_Image_2026-10-10_at_1.54.05_PM.jpg",
-    tallas: ["M"],
-    descripcion: "Blusa de rayas con detalle de cereza al frente."
-  },
-  {
-    id: 7,
+ id: 6,
     nombre: "Top Amarillo con Puntos",
     precio: 150,
     categoria: "Blusas",
@@ -64,7 +55,7 @@ const PRODUCTOS = [
     descripcion: "Top amarillo con puntos negros, fresco y juvenil."
   },
   {
-    id: 8,
+    id: 7,
     nombre: "Top Halter Puntos cafes",
     precio: 150,
     categoria: "Blusas",
@@ -73,7 +64,7 @@ const PRODUCTOS = [
     descripcion: "Top halter blanco con puntos negros."
   },
   {
-    id: 9,
+    id: 8,
     nombre: "Top Tejido amarillo",
     precio: 150,
     categoria: "Blusas",
@@ -82,17 +73,8 @@ const PRODUCTOS = [
     descripcion: "Top tejido blanco con tirantes finos."
     },
   {
-    id: 10,
-    nombre: "Top Rosa con puntos negros",
-    precio: 180,
-    categoria: "Blusas",
-    imagen: "https://res.cloudinary.com/yb89nhol/image/upload/v1791697773/WhatsApp_Image_2026-10-10_at_11.41.33_PM.jpg",
-    tallas: ["M"],
-    descripcion: "Top Rosa con detalles negros."
-  
-  },
-  {
-    id: 12,
+   
+    id: 9,
     nombre: "Blusa de Cuadros",
     precio: 180,
     categoria: "Blusas",
@@ -103,7 +85,7 @@ const PRODUCTOS = [
 
   // ===== PANTALONES =====
   {
-    id: 13,
+    id: 10,
     nombre: "Pantalón Palazzo Beige",
     precio: 270,
     categoria: "Pantalones",
